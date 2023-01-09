@@ -6,12 +6,14 @@
 
       var map = new google.maps.Map(document.getElementById('map'), options);
       
-      const contentString =
-    'YUHHHHHH<img src="resources/test.png">';
-    const infowindow = new google.maps.InfoWindow({
-      content: contentString,
-      ariaLabel: "Uluru",
-    });
+
+
+
+      const contentString ='<p id="par">YUHHHHHH</p><img src="resources/test.png">';
+      const infowindow = new google.maps.InfoWindow({
+        content: contentString,
+        maxWidth: 200
+      });
 
       var marker = new google.maps.Marker({
         position:{lat:30.28058939021873, lng:-97.81840654782212},
