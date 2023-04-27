@@ -1,29 +1,17 @@
-#map{
-  height:600px;
-  width:100%;
-}
-#par{
-  color:blue;
-}
-
-
-
-
-/* window styling */
-.windo {
+.window {
   font-family: Verdana, sans-serif;
   margin: 0;
   background-color:white;
 }
 .mySlides {
-  display: none;
+  display: none
 }
-.windo img {
+.window img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width:100%;
-  max-height: 100px;
+  max-height: 400px;
 }
 .slideshow-container {
   /*max-width: 1000px;*/
@@ -72,8 +60,8 @@
   height:auto;
 }
 
-.stars img{
-  float: left;
+.stars img
+{  float: left;
   height:100%;
   width:20%;
 }
@@ -84,4 +72,12 @@
 
 .address{
   font-size: 18px;
+}
+
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
 }
