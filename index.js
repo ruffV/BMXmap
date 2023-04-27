@@ -119,7 +119,7 @@ function initMap(){
   const contentString2 =`
 <div class = "windo">
   <div class="slideshow-container">
-    <div class="mySlides", id = "firstSlide">
+    <div class="mySlides">
       <img src="https://images.pexels.com/photos/1454769/pexels-photo-1454769.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
       <div class="text">1 / 3</div>
     </div>
